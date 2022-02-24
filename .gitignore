@@ -1,0 +1,145 @@
+#Temporary folders
+RunRobot/*.lua
+RunRobot/*.sh
+RunRobot/*.py
+RunRobot/*.pzl
+RunRobot/*
+Memory/*.lua
+Webots/worlds
+Test/current.pzl
+Robots/Panda/meshmaker/data
+*.lut
+
+# Log files
+Log/*.png
+Log/Log*
+Log/Labeled/
+Log/poselog.txt
+Log/*
+
+# YOLO weights
+Data/YOLO
+
+#Google API credential file
+Data/*.json
+
+# catkin build and devel folders
+catkin_ws/build
+catkin_ws/devel
+catkin_ws2/build
+catkin_ws2/devel
+catkin_ws/src/CMakeLists.txt
+catkin_ws2/src/CMakeLists.txt
+
+#catkin_ws/src/darknet_ros/darknet/data/
+
+#dependency extract folder
+Dependencies/zeromq-3.2.5
+Dependencies/SocketCAN_linux
+Dependencies/pyopenvr
+Dependencies/cmake-3.14.5
+Dependencies/Azure-Kinect-Sensor-SDK
+Dependencies/openpose
+Dependencies/opencv_contrib-3.4.0
+Dependencies/opencv-3.4.0
+
+
+# Python compiled files and saved data files
+*.pyc
+*.npy
+*.pkl
+
+# compiled sources
+*.o
+*.a
+*.so
+*.dylib
+*.hex
+*.bin
+*.elf
+*.d
+*.signature
+*.run
+
+#robotic arm controller binary
+Modules3/panda/pandacontroller
+Modules3/kinova/kinova_ros_driver
+
+# generic log files
+*.log
+*.raw
+
+# Config link file
+Config.lua
+
+# auto-generated webots controller wrapper
+*.wbproj
+
+#auto-generated webots file
+#*.wrl
+*.wbproj
+*.cache
+
+#pcd file
+*.pcd
+*.las
+
+# webots binary objects
+Webots/controllers/ballGPS/ballGPS
+Webots/controllers/ballGPS/build/
+
+Webots/controllers/objectGPS/objectGPS
+Webots/controllers/objectGPS/build/
+
+Webots/controllers/turnsign/build
+Webots/controllers/turnsign/turnsign
+
+Webots/controllers/trafficlight/build
+Webots/controllers/trafficlight/trafficlight
+
+Webots/controllers/gate/build
+Webots/controllers/gate/gate
+
+Webots/controllers/sensor/build
+Webots/controllers/sensor/sensor
+
+
+# Temp and Swap files
+*~
+*.swp
+.DS_Store
+
+# Build file with CMAKE
+build
+
+# Webot World File temp
+*.project
+
+# svn
+.svn
+
+# screen log
+*screenlog*
+
+# Julia and iPython
+.ipynb_checkpoints
+*.ipynb
+
+#data files
+*.dat
+*.mat
+*.avi
+*.bag
+
+# pycharm
+.idea
+
+#soma cube puzzle file
+*.pzl
+
+#generated start script
+start_robot.sh
+webots_start.sh
+
+catkin_ws/src/KVRC2021
+catkin_ws/src/vision_visp
